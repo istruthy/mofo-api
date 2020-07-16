@@ -1,0 +1,25 @@
+{
+  "name": "mofo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "functions:dev": "netlify-lambda serve functions/src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istruthy/mofo-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/istruthy/mofo-api/issues"
+  },
+  "homepage": "https://github.com/istruthy/mofo-api#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "netlify-lambda": "^2.0.0"
+  }
+}
